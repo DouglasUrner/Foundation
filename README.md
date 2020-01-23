@@ -9,6 +9,7 @@ Other branches:
 * **add-bootstrap**:
 * **add-navbar**:
 * **add-devise**:
+* **add-rails-settings**:
 
 # How it was built
 
