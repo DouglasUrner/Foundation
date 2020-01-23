@@ -60,6 +60,11 @@ Rails.application.configure do
   # config.active_job.queue_adapter     = :resque
   # config.active_job.queue_name_prefix = "foundation_production"
 
+  # Mailer for Devise
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+  # XXX: handle this better
+  puts "PANIC: fix action_mailer.default_url_options in #{__FILE__}"
+
   config.action_mailer.perform_caching = false
 
   # Ignore bad email addresses and do not raise email delivery errors.
