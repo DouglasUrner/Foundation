@@ -1,4 +1,4 @@
-# Foundation: a template Rails 6 project
+# Foundation: a Rails 6 template project
 
 The **master** branch is the fully configured template, ready to be used as the starting point of a project.
 
@@ -24,8 +24,10 @@ end
 ```
 
 ```html
-<h1>Hello world!</h1>
+<h1>Foundation</h1>
 ```
+
+The home controller gives us just enough to set up and test the other components and a target for Devise.
 
 ### navbar
 
