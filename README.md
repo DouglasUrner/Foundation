@@ -40,6 +40,8 @@ Using Adrian Teh's approach from [Ruby on Rails 6 with Webpacker and Bootstrap][
 
 `yarn add bootstrap jquery popper.js`
 
+It appears that once you enable emitting separate CSS, you must use the `stylesheet_pack_tag` helper to include CSS that is managed by Webpack.
+
 #### Using MD Bootstrap
 
 ### [TailwindCSS](https://tailwindcss.com)
