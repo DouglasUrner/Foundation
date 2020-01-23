@@ -5,6 +5,7 @@ The **master** branch is the fully configured template, ready to be used as the 
 Other branches:
 * **rails-new**: The result of `rails new foundation` - you can add components individually by basing a new branch on this branch and then merging the components that you want. A minimal controller and view for `home#index` is included and set as the default route.
 * **add-bootstrap**:
+* **add-navbar**:
 * **add-devise**:
 
 ## Base Rails App
@@ -29,8 +30,6 @@ end
 ```
 
 The home controller gives us just enough to set up and test the other components and a target for Devise.
-
-### navbar
 
 ## Styling
 
@@ -75,6 +74,10 @@ The code is available on GitHub at: [AdrianTeh/HelloWorldWebpacker](https://gith
 ### [Font Awesome](https://fontawesome.com)
 
 ## The Navbar
+
+The navbar is the example [Bootstrap navbar][navbar] from the Bootstrap documentation, stored as a partial in `views/layouts/_navbar.html.erb`. It is rendered by a call from `views/layouts/application.html.erb`.
+
+[navbar]: <https://getbootstrap.com/docs/4.0/components/navbar/>
 
 ## User Accounts
 
