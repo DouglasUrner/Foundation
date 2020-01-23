@@ -86,6 +86,8 @@ The code is available on GitHub at: [AdrianTeh/HelloWorldWebpacker](https://gith
 import "@fortawesome/fontawesome-free/css/all.css";
 ```
 
+* [bokmann/font-awesome-rails](https://github.com/bokmann/font-awesome-rails)
+
 ## The Navbar
 
 The navbar is the example [Bootstrap navbar][navbar] from the Bootstrap documentation, stored as a partial in `views/layouts/_navbar.html.erb`. It is rendered by a call from `views/layouts/application.html.erb`.
