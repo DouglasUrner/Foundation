@@ -10,6 +10,7 @@ Other branches:
 * **add-navbar**:
 * **add-devise**:
 * **add-rails-settings**:
+* **add-fontawesome**:
 
 # How it was built
 
@@ -77,6 +78,13 @@ The code is available on GitHub at: [AdrianTeh/HelloWorldWebpacker](https://gith
 [webpack]: <>
 
 ### [Font Awesome](https://fontawesome.com)
+
+1. `yarn add @fortawesome/fontawesome-free`
+1. Add the following line to `app/javascript/packs/application.js`:
+
+```javascript
+import "@fortawesome/fontawesome-free/css/all.css";
+```
 
 ## The Navbar
 
