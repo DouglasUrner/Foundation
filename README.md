@@ -36,17 +36,17 @@ The home controller gives us just enough to set up and test the other components
 
 ### With Bootstrap 4
 
-Using Adrian Teh's approach from [Ruby on Rails 6 with Webpacker and Bootstrap][teh], including support for emitting separate CSS files for the `stylesheet_pack_tag` helper:
+Using Adrian Teh's approach from [Ruby on Rails 6 with Webpacker and Bootstrap][teh], including support for emitting separate CSS files for the `stylesheet_pack_tag` helper.
 
-`yarn add bootstrap jquery popper.js`
+It appears that once you enable emitting separate CSS, you must use the `stylesheet_pack_tag` helper to include CSS that is managed by Webpack.
+
+It also appears that each stylesheet that you want to pick up from `app/assets/stylesheets` has to be listed individually in `app/javascript/stylesheets/application.scss`.
 
 #### Using MD Bootstrap
 
 ### [TailwindCSS](https://tailwindcss.com)
 
 A less "opinionated" alternative to Bootstrap.
-
-
 
 #### References
 
@@ -73,6 +73,8 @@ The code is available on GitHub at: [AdrianTeh/HelloWorldWebpacker](https://gith
 [webpack]: <>
 
 ### [Font Awesome](https://fontawesome.com)
+
+## The Navbar
 
 ## User Accounts
 
