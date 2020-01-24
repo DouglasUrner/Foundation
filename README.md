@@ -11,7 +11,7 @@ One time:
 ```bash
 git remote add template [_URL of your repo_]
 ```
-To update:
+To pick up changes from the template's repository:
 
 ```bash
 git fetch --all
