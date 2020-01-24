@@ -20,7 +20,7 @@ Create a new Rails app:
 
 `rails new foundation` (branch: **rails-new**)
 
-`rails g controller home`
+`rails g controller home index`
 
 ### home#index
 
@@ -87,6 +87,11 @@ import "@fortawesome/fontawesome-free/css/all.css";
 ```
 
 * [bokmann/font-awesome-rails](https://github.com/bokmann/font-awesome-rails)
+* [Rails 6, Webpacker, FontAwesome, Heroku](https://medium.com/@rodreegez/rails-6-webpacker-fontawesome-heroku-4cc0bf1705dd) (July 2019)
+
+### [Bulma](https://bulma.io)
+
+Pure CSS, no JavaScript.
 
 ## The Navbar
 
@@ -158,3 +163,10 @@ Installed, but not used - e.g., no examples.
 ## Other Resources
 
 * [The Ultimate Intermediate Ruby on Rails Tutorial: Let’s Create an Entire App!](https://www.freecodecamp.org/news/lets-create-an-intermediate-level-ruby-on-rails-application-d7c6e997c63f/) (December 2017)
+* [modern rails with webpacker and stimulus](https://michael.minton.io/2018/06/modern-rails-with-webpacker-and-stimulus.html) (July 2018) - and Bulma and [Stimulus][].
+
+### Packages
+
+* [Stimulus][]
+
+[stimulus]: <https://stimulusjs.org>
