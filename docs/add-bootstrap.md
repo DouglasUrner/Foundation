@@ -1,6 +1,4 @@
-## Adding Bootstrap
-
-### With Bootstrap 4
+# Adding [Bootstrap 4][bootstrap]
 
 Using Adrian Teh's approach from [Ruby on Rails 6 with Webpacker and Bootstrap][teh], including support for emitting separate CSS files for the `stylesheet_pack_tag` helper.
 
@@ -8,17 +6,20 @@ It appears that once you enable emitting separate CSS, you must use the `stylesh
 
 It also appears that each stylesheet that you want to pick up from `app/assets/stylesheets` has to be listed individually in `app/javascript/stylesheets/application.scss`.
 
-#### Using MD Bootstrap
+[bootstrap: <https://getbootstrap.com>
 
-### [Bootstrap 4](https://getbootstrap.com)
+## With Webpack
 
-#### With Sprockets
+
+## With Sprockets
 
 * [bootstrap-rubygem](https://github.com/twbs/bootstrap-rubygem)
 
-#### With Webpack
+## Views Modification
 
-#### References
+### The Navbar
+
+## References
 
 * [Ruby on Rails 6 with Webpacker and Bootstrap][teh] (July 2019) - Uses [Webpack][], but keeps the stylesheets in `app/assets/stylesheets`.
 The code is available on GitHub at: [AdrianTeh/HelloWorldWebpacker](https://github.com/AdrianTeh/HelloWorldWebpacker), however it assumes you have Postgress for your database and it expects Ruby 2.6.3.
