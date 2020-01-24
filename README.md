@@ -86,6 +86,8 @@ The code is available on GitHub at: [AdrianTeh/HelloWorldWebpacker](https://gith
 import "@fortawesome/fontawesome-free/css/all.css";
 ```
 
+#### References
+
 * [bokmann/font-awesome-rails](https://github.com/bokmann/font-awesome-rails)
 * [Rails 6, Webpacker, FontAwesome, Heroku](https://medium.com/@rodreegez/rails-6-webpacker-fontawesome-heroku-4cc0bf1705dd) (July 2019)
 
