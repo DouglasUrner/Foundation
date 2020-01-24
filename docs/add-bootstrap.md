@@ -17,6 +17,8 @@ It also appears that each stylesheet that you want to pick up from `app/assets/s
 
 ## Views Modification
 
+* [How To Add Bootstrap to a Ruby on Rails Application](https://www.digitalocean.com/community/tutorials/how-to-add-bootstrap-to-a-ruby-on-rails-application) (November 2019)
+
 ### The Navbar
 
 The navbar is the example [Bootstrap navbar][navbar] from the Bootstrap documentation, stored as a partial in `views/layouts/_navbar.html.erb`. It is rendered by a call from `views/layouts/application.html.erb`.
