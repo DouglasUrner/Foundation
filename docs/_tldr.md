@@ -4,7 +4,7 @@ The **master** branch is the fully configured template, ready to be used as the 
 
 Other branches:
 * **rails-new**: The result of `rails new foundation` - you can add components individually by basing a new branch on this branch and then merging the components that you want. A minimal controller and view for `home#index` is included and set as the default route.
-* **add-bootstrap**:
+* [**add-bootstrap**](add-bootstrap.md):
 * **add-navbar**:
 * **add-devise**:
 * **add-rails-settings**:
