@@ -20,4 +20,4 @@ git merge template/[_branch to merge_] --allow-unrelated-histories
 
 ## Building the template
 
-[Notes on assembling the template](docs/tldr.md)
+[Notes on assembling the template](docs/_tldr.md)
