@@ -9,6 +9,7 @@ Other branches:
 * **add-devise**:
 * **add-rails-settings**:
 * **add-fontawesome**:
+* [**add-simple-form**](add-simple-form.md):
 
 # How it was built
 
