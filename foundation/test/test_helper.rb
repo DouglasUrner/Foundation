@@ -1,11 +1,15 @@
 ENV['RAILS_ENV'] ||= 'test'
 
+# Require and start SimpleCov first thing to ensure complete coverage.
 require 'simplecov'
+SimpleCov.start 'rails' do
+  enable_coverage :branch
+end
+# Avoid unpleasant interactions between Spring, SimpleCov, and eager loading.
+Rails.application.eager_load!
 
 require_relative '../config/environment'
 require 'rails/test_help'
-
-SimpleCov.start
 
 class ActiveSupport::TestCase
   # Run tests in parallel with specified workers
