@@ -1,9 +1,22 @@
 ENV['RAILS_ENV'] ||= 'test'
+
+require 'simplecov'
+
 require_relative '../config/environment'
 require 'rails/test_help'
 
+SimpleCov.start
+
 class ActiveSupport::TestCase
   # Run tests in parallel with specified workers
+  parallelize_setup do |worker|
+    # Setup database(s)
+  end
+
+  parallelize_teardown do |worker|
+    # Cleanup database(s)
+  end
+
   parallelize(workers: :number_of_processors)
 
   # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
